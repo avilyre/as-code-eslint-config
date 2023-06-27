@@ -30,6 +30,7 @@ module.exports = {
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-key": "error",
     "react/no-array-index-key": "warn",
-    "react/jsx-uses-vars": "error"
+    "react/jsx-uses-vars": "error",
+    "semi": "error"
   }
 };
