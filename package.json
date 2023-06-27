@@ -1,0 +1,26 @@
+{
+  "name": "@as-code/eslint-config",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Minha configurações customizadas do eslint",
+  "keywords": [
+    "As Code",
+    "Eslint",
+    "Code style"
+  ],
+  "author": {
+    "name": "Avily Silva",
+    "email": "avilyrs@gmail.com",
+    "homepage": "avilyrs.github.io/portifolio"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint": "^8.43.0",
+    "eslint-plugin-react": "^7.32.2"
+  },
+  "dependencies": {
+    "react-hooks": "^1.0.1"
+  }
+}
