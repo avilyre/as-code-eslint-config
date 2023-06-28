@@ -5,6 +5,7 @@ Minhas configurações do eslint
 ### Features
 
 - *:pencil: Eslint*
+- *:pencil: Prettier*
 - *:pencil: React | React Hooks*
 
 ### Integrando ao seu projeto

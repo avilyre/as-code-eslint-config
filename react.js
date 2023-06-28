@@ -7,9 +7,8 @@ module.exports = {
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
     "plugin:react-hooks/recommended"
-  ],
-  "overrides": [
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -21,6 +20,16 @@ module.exports = {
     "@typescript-eslint"
   ],
   "rules": {
+    'prettier/prettier': [
+      "error", {
+        'tabWidth': 2,
+        'singleQuote': false,
+        'trailingComma': 'all',
+        'arrowParens': 'avoid',
+        'semi': true,
+        'endOfLine': 'auto',
+      }
+    ],
     "no-console": "warn",
     "@typescript-eslint/no-unused-vars": "error",
     "react/react-in-jsx-scope": "off",
@@ -31,6 +40,5 @@ module.exports = {
     "react/jsx-key": "error",
     "react/no-array-index-key": "warn",
     "react/jsx-uses-vars": "error",
-    "semi": "error"
   }
 };
