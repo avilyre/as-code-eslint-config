@@ -8,6 +8,10 @@
     "Eslint",
     "Code style"
   ],
+  "homepage": "https://github.com/AvilyRs/as-code-eslint-config",
+  "repository": {
+    "url": "https://github.com/AvilyRs/as-code-eslint-config"
+  },
   "author": {
     "name": "Avily Silva",
     "email": "avilyrs@gmail.com",
