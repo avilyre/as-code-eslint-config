@@ -1,4 +1,4 @@
-# AsCode Eslint Config
+# As Code Eslint Config
 
 Minhas configurações do eslint
 
