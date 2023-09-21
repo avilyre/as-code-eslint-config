@@ -1,6 +1,6 @@
 # As Code Eslint Config
 
-Minhas configurações do eslint
+My Eslint custom settings
 
 ### Features
 
@@ -8,15 +8,15 @@ Minhas configurações do eslint
 - *:pencil: Prettier*
 - *:pencil: React | React Hooks*
 
-### Integrando ao seu projeto
+### Integrating into your project
 ```javascript
-  // Instale a dependência no seu projeto
+  // Install the dependency in your project
   $ npm i @as-code/eslint-config -D
 
-  // Crie um arquivo na raiz do projeto com o seguinte nome
+  // Create a eslint file
   $  .eslintrc.json
 
-  // E cole dentro do arquivo o seguinte código. Feito!
+  // And paste the following code into the file. Done!
   {
     "extends": "@as-code/eslint-config/react"
   }
