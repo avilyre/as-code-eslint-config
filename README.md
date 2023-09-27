@@ -12,9 +12,9 @@ My Eslint custom settings
 ### Integrating into your project
 ```javascript
   // Install the dependency in your project
-  $ npm i @as-code/eslint-config -D
+  $ npm i @as-code/eslint-config --save-dev
 
-  // Create a eslint file
+  // Create an eslint file
   $  .eslintrc.json
 ```
 And paste the following code into the file for react application or node:
@@ -28,7 +28,7 @@ And paste the following code into the file for react application or node:
 Or
 ```javascript
   {
-    // If you are creating an node application
+    // If you are creating a node application
     "extends": "@as-code/eslint-config/node"
   }
 ```
