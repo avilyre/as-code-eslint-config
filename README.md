@@ -7,6 +7,7 @@ My Eslint custom settings
 - *:pencil: Eslint*
 - *:pencil: Prettier*
 - *:pencil: React | React Hooks*
+- *:pencil: NodeJS*
 
 ### Integrating into your project
 ```javascript
@@ -15,9 +16,19 @@ My Eslint custom settings
 
   // Create a eslint file
   $  .eslintrc.json
+```
+And paste the following code into the file for react application or node:
 
-  // And paste the following code into the file. Done!
+```javascript
   {
+    // For react project
     "extends": "@as-code/eslint-config/react"
+  }
+```
+Or
+```javascript
+  {
+    // If you are creating an node application
+    "extends": "@as-code/eslint-config/node"
   }
 ```

@@ -1,33 +1,33 @@
 module.exports = {
-  "env": {
-    "browser": true,
-    "es2021": true
+  env: {
+    browser: true,
+    es2021: true
   },
-  "extends": [
+  extends: [
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
     "plugin:react-hooks/recommended"
   ],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "ecmaVersion": "latest",
-    "sourceType": "module"
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    ecmaVersion: "latest",
+    sourceType: "module"
   },
-  "plugins": [
+  plugins: [
     "react",
     "@typescript-eslint"
   ],
-  "rules": {
+  rules: {
     'prettier/prettier': [
       "error", {
-        'tabWidth': 2,
-        'singleQuote': false,
-        'trailingComma': 'all',
-        'arrowParens': 'avoid',
-        'semi': true,
-        'endOfLine': 'auto',
+        tabWidth: 2,
+        singleQuote: false,
+        trailingComma: 'all',
+        arrowParens: 'avoid',
+        semi: true,
+        endOfLine: 'auto',
       }
     ],
     "no-console": "warn",
@@ -39,6 +39,6 @@ module.exports = {
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-key": "error",
     "react/no-array-index-key": "warn",
-    "react/jsx-uses-vars": "error",
+    "react/jsx-uses-vars": "error"
   }
 };

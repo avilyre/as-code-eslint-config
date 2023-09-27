@@ -1,6 +1,6 @@
 {
   "name": "@as-code/eslint-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": false,
   "description": "My Eslint custom settings",
   "keywords": [
@@ -19,7 +19,8 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^8.43.0"
+    "eslint": "^8.43.0",
+    "typescript": ">=4"
   },
   "peerDependenciesMeta": {
     "typescript": {
