@@ -1,6 +1,6 @@
 # As Code Eslint Config
 
-My Eslint custom settings
+Improve your code with this custom eslint patterns
 
 ### Features
 
@@ -17,7 +17,7 @@ My Eslint custom settings
   // Create an eslint file
   $  .eslintrc.json
 ```
-And paste the following code into the file for react application or node:
+And paste the following code into the file:
 
 ```javascript
   {
